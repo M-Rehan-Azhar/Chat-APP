@@ -1,0 +1,131 @@
+/* Logo styling */
+.logo {
+    display: block;
+    margin: 20px auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Body styling */
+body {
+    background-color: #f0f2f5;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #0084ff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Chat container styling */
+.container {
+    position: relative;
+    width: 95%;
+    max-width: 900px;
+    border: 2px solid #ccc;
+    background-color: #ffffff;
+    margin: 30px auto;
+    height: 60vh;
+    padding: 20px;
+    overflow-y: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Message styling */
+.message {
+    background-color: #0084ff;
+    color: white;
+    max-width: 60%;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 20px;
+    word-wrap: break-word;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.message.left {
+    background-color: #f0f0f0;
+    color: #333;
+    float: left;
+    clear: both;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.message.right {
+    background-color: #0084ff;
+    color: white;
+    float: right;
+    clear: both;
+    text-align: right;
+    margin-right: 10px;
+}
+
+/* Input and send button styling */
+#send-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 10px;
+    border-top: 2px solid #ccc;
+    background-color: #ffffff;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#messageInp {
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+#messageInp:focus {
+    border-color: #0084ff;
+}
+
+.btn {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #0084ff;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #005bb5;
+}
+
+/* Add a scrollbar for the chat container */
+.container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color: #0084ff;
+    border-radius: 10px;
+}
+
+.container::-webkit-scrollbar-track {
+    background-color: #f0f2f5;
+}
