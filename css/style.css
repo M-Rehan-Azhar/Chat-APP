@@ -1,11 +1,11 @@
 /* Logo styling */
 .logo {
     display: block;
-    margin: 20px auto;
-    width: 70px;
-    height: 70px;
+    margin: 10px auto;
+    width: 50px; /* Reduced size for better balance */
+    height: 50px;
     border-radius: 50%;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Softer shadow */
 }
 
 /* Body styling */
@@ -15,43 +15,44 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+    font-size: 14px; /* Base font size for scaling */
 }
 
 /* Navigation bar */
 nav {
     background-color: #0084ff;
-    height: 80px;
+    height: 60px; /* Reduced height */
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Chat container styling */
 .container {
     position: relative;
-    width: 95%;
-    max-width: 900px;
-    border: 2px solid #ccc;
+    width: 90%; /* Adaptable width */
+    max-width: 800px; /* Reduced maximum width */
+    border: 1px solid #ccc; /* Softer border */
     background-color: #ffffff;
-    margin: 30px auto;
-    height: 60vh;
-    padding: 20px;
+    margin: 20px auto; /* Compact spacing */
+    height: 50vh; /* Reduced height for smaller screens */
+    padding: 15px; /* Compact padding */
     overflow-y: auto;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Reduced corner radius */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Message styling */
 .message {
     background-color: #0084ff;
     color: white;
-    max-width: 60%;
-    padding: 10px 15px;
-    margin: 10px 0;
-    border-radius: 20px;
+    max-width: 55%; /* Slightly smaller width */
+    padding: 8px 12px; /* Compact padding */
+    margin: 8px 0; /* Reduced margin */
+    border-radius: 15px; /* Smaller corner radius */
     word-wrap: break-word;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .message.left {
@@ -60,7 +61,7 @@ nav {
     float: left;
     clear: both;
     text-align: left;
-    margin-left: 10px;
+    margin-left: 8px; /* Reduced margin */
 }
 
 .message.right {
@@ -69,7 +70,7 @@ nav {
     float: right;
     clear: both;
     text-align: right;
-    margin-right: 10px;
+    margin-right: 8px; /* Reduced margin */
 }
 
 /* Input and send button styling */
@@ -78,21 +79,21 @@ nav {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    max-width: 900px;
-    padding: 10px;
-    border-top: 2px solid #ccc;
+    max-width: 800px;
+    padding: 8px; /* Compact padding */
+    border-top: 1px solid #ccc; /* Softer border */
     background-color: #ffffff;
-    border-radius: 0 0 10px 10px;
-    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.1);
 }
 
 #messageInp {
     flex-grow: 1;
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 25px;
+    padding: 8px; /* Compact padding */
+    border: 1px solid #ccc; /* Softer border */
+    border-radius: 20px; /* Adjusted radius */
     outline: none;
-    font-size: 14px;
+    font-size: 13px; /* Smaller font size */
     transition: border-color 0.3s;
 }
 
@@ -101,13 +102,13 @@ nav {
 }
 
 .btn {
-    margin-left: 10px;
-    padding: 10px 20px;
+    margin-left: 8px; /* Compact spacing */
+    padding: 8px 16px; /* Compact padding */
     border: none;
-    border-radius: 25px;
+    border-radius: 20px;
     background-color: #0084ff;
     color: white;
-    font-size: 14px;
+    font-size: 13px; /* Smaller font size */
     cursor: pointer;
     transition: background-color 0.3s;
 }
@@ -118,12 +119,12 @@ nav {
 
 /* Add a scrollbar for the chat container */
 .container::-webkit-scrollbar {
-    width: 8px;
+    width: 6px; /* Slimmer scrollbar */
 }
 
 .container::-webkit-scrollbar-thumb {
     background-color: #0084ff;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 .container::-webkit-scrollbar-track {
